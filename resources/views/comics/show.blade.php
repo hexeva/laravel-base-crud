@@ -20,12 +20,9 @@ SINGLE COMIC
               <li class="list-group-item">{{$comic->series}}</li>
               <li class="list-group-item">{{$comic->sale_date}}</li>
               <li class="list-group-item">{{$comic->type}}</li>
-
-
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <a href="#" class="card-link">torna alla homepage</a>
             </div>
           </div>
     </div>
