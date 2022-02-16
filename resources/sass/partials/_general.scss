@@ -1,3 +1,7 @@
+header{
+    margin-bottom: 100px;
+}
+
 .comic_list{
     margin: 50px 0;
 }
@@ -20,4 +24,10 @@ img{
 .hidden{
     max-height: 300px;
     overflow-y: auto;
+}
+
+.create_form{
+    width: 70%;
+    margin: auto;
+    padding: 50px 0;
 }
