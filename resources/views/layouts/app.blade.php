@@ -17,7 +17,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active mx-4" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active mx-4" aria-current="page" href="{{route('comics.index')}}">Home</a>
                   <a class="nav-link mx-4" href="#">Features</a>
                   <a class="nav-link mx-4" href="#">Pricing</a>
                   <a class="nav-link disabled mx-4">Disabled</a>
