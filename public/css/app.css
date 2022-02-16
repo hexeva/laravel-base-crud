@@ -12181,3 +12181,10 @@ img {
   max-width: 300px;
 }
 
+.single_comic {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+

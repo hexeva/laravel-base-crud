@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title_page')
+    COMIC-INDEX
+@endsection
 
 
 @section('main_content')
