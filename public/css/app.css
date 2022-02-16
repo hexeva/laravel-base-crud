@@ -12188,3 +12188,13 @@ img {
   justify-content: center;
 }
 
+.red {
+  color: red;
+  font-size: 30px;
+}
+
+.hidden {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
