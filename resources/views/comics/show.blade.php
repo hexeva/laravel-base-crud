@@ -30,7 +30,7 @@ SINGLE COMIC
                 <form action="{{route('comics.destroy',['comic'=>$comic->id])}}" method="post">
                   @csrf
                   @method('DELETE')
-                  <button class="btn btn-danger">Cancella</button>
+                  <button onclick="return confirm('Do you really want to delete me?')" class="btn btn-danger">Cancella</button>
                 </form>
               </div>
             </div>

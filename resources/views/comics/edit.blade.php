@@ -57,7 +57,7 @@ EDIT PAGE
 
         <textarea class="form-control" name="description" id="" cols="30" rows="10">{{old('description') ? old('description') : $comic->description}}</textarea>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button  type="submit" class="btn btn-primary">Submit</button>
       </form>
 </div>
     
