@@ -22,9 +22,17 @@ SINGLE COMIC
               <li class="list-group-item">{{$comic->type}}</li>
             </ul>
             <div class="card-body">
-              <a href="{{route('comics.index')}}" class="card-link">torna alla homepage</a>
-              <a href="{{route('comics.edit',['comic'=>$comic->id])}}" class="card-link">Update comic</a>
-              
+              <div class="show_btn">
+                <a href="{{route('comics.index')}}" class="card-link btn btn-info">Homepage</a>
+                <a href="{{route('comics.edit',['comic'=>$comic->id])}}" class="card-link btn btn-info">Update</a>
+              </div>
+              <div class="delete">
+                <form action="{{route('comics.destroy',['comic'=>$comic->id])}}" method="post">
+                  @csrf
+                  @method('DELETE')
+                  <button class="btn btn-danger">Cancella</button>
+                </form>
+              </div>
             </div>
           </div>
     </div>
