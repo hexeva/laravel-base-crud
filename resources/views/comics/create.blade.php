@@ -42,8 +42,8 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="description" class="form-label">description</label>
-                    <textarea class="form-control"  id="description" cols="30" rows="10" name="description"></textarea>
+                    <label for="description">Description</label>
+                    <textarea class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

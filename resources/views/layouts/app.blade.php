@@ -18,7 +18,7 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active mx-4" aria-current="page" href="{{route('comics.index')}}">Home</a>
-                  <a class="nav-link mx-4" href="#">Features</a>
+                  <a class="nav-link mx-4" href="{{route('comics.create')}}">Insert new Comic</a>
                   
                 </div>
               </div>
