@@ -23,6 +23,8 @@ SINGLE COMIC
             </ul>
             <div class="card-body">
               <a href="{{route('comics.index')}}" class="card-link">torna alla homepage</a>
+              <a href="{{route('comics.edit',['comic'=>$comic->id])}}" class="card-link">Update comic</a>
+              
             </div>
           </div>
     </div>
